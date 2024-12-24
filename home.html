@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- The <div> tags don't have any id attributes yet! -->
+<!-- I'm using the <span> element to "select" certain text and hopefully style it later with CSS -->
+<!-- I'll try to use the <header>, <nav>, <main>, <footer>, <section>, <article>, <aside>, <video>, <audio>, <embed>, <figure> and <figcaption> semantic HTML tags -->
+<html>
+    <head>
+        <title>Langrisser II Project</title>
+        <header><!-- Semantic HTML tag -->
+            <h1>Langrisser II Website Project</h1>
+        </header>
+        <!-- The following tag links to the "Montserrat" Google Font, as part of my practice -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet"> <!-- This is the link to my CSS file-->
+    </head>
+    <body>
+        <nav class="nav-bar"><!-- Semantic HTML tag -->
+            <ul>
+                <b>
+                    <li>
+                        <a href="#intro">Langrisser II</a>
+                    </li>
+                </b>
+                <b>
+                    <li>
+                        <a href="#gameplay">Table of contents</a>
+                    </li>
+                </b>
+                <b>
+                    <li>Gameplay</li>
+                </b>
+                <b>
+                    <li>Walkthrough</li>
+                </b>
+                <b>
+                    <li>Media</li><!-- I want to use the <audio> or <video> semantic HTML tags here -->
+                </b>
+            </ul>
+        </nav>
+        <hr>
+        <figure><!-- Semantic HTML tag -->
+            <img src="https://www.vgmuseum.com/scans/md/langri2.jpg">
+            <figcaption>Langrisser II for the Genesis</figcaption><!-- Semantic HTML tag -->
+        </figure>
+        <hr>
+        By From <a rel="nofollow" class="external text" href="http://www.vgmuseum.com/scans/md/langri2.jpg">vgmuseum</a>., <a href="//en.wikipedia.org/wiki/File:Langrisser_II_Coverart.png" title="Fair use of copyrighted material in the context of Langrisser II">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=18740105">Link</a>
+        <hr>
+        <main><!-- Semantic HTML tag -->
+            <div id="intro">
+                <section><!-- Semantic HTML tag -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Langrisser II</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><strong>Developer</strong></th>
+                                <td>CareerSoft</td>
+                            </tr>
+                            <tr>
+                                <th><strong>Publisher</strong></th>
+                                <td>Masaya</td>
+                            </tr>
+                            <tr>
+                                <th><strong>Year released</strong></th>
+                                <td>1994</td>
+                            </tr>
+                            <tr>
+                                <th><strong>System</strong></th>
+                                <td>Sega Genesis, DOS</td>
+                            </tr>
+                            <tr>
+                                <th><strong>Preceded by</strong></th>
+                                <td><em>Warsong</em></td>
+                            </tr>
+                            <tr>
+                                <th><strong>Series</strong></th>
+                                <td>Langrisser</td>
+                            </tr>
+                            <tr>
+                                <th><strong>Genre</strong></th>
+                                <td>Tactical RPG</td>
+                            </tr>
+                            <tr>
+                                <th><strong>Modes</strong></th>
+                                <td>Single Player</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+            <hr>
+            <article><!-- Semantic HTML tag -->
+                <div>
+                    <p class="description"><strong>Langrisser II</strong> is the sequel to Warsong. It was later ported to the SNES as <strong>Der Langrisser</strong> and the PC-FX as <strong>Der Langrisser FX</strong>; both these versions featured multiple endings and improved graphics. It was later included with Warsong on the PlayStation compilation Langrisser I & II and the Sega Saturn compilations Langrisser: Dramatic Edition and Langrisser Tribute.<br> These compilations, despite referring to the game as Langrisser II, are actually using the Der Langrisser code.<br>Langrisser II takes place many years after the first. The kingdom of Baltia (the good guys in Langrisser) is gone, and a new world power called the Rayguard Empire has risen. Led by Emperor Bernhart and his four generals, it has been taking over the surrounding countries and searching for something... what is it? You'll find out as you play the game.</p>
+                </div>
+            </article>
+        </main>
+        <hr>
+        <footer><!-- Semantic HTML tag -->
+            <nav><!-- Semantic HTML tag -->
+                <section id="gameplay">
+                <h2>
+                    <a href="./gameplay.html">Gameplay</a>
+                </h2>
+                    <ul>
+                        <li>Characters</li>
+                        <li>Spells</li>
+                        <li>Summons</li>
+                        <li>Version comparisons</li>
+                    </ul>
+                </section>
+                <section id="classes">
+                <h3>Classes</h3>
+                    <ul>
+                        <li>Hero classes</li>
+                        <li>Other classes</li>
+                        <li>Follower classes</li>
+                    </ul>
+                </section>
+                <section id="items">
+                <h3>Items</h3>
+                    <ul>
+                        <li>Weapons</li>
+                        <li>Armor</li>
+                        <li>Special items</li>
+                    </ul>
+                </section>
+                <section id="walkthrough">
+                <h3>Walkthrough</h3>
+                    <ol>
+                        <li>Knights of the Rayguard Empire</li>
+                        <li>Besieged Manor</li>
+                        <li>Mountain Ambush</li>
+                        <li>The Light Shrine</li>
+                        <li>A Werewolf Howls</li>
+                        <li>The Lone Warrior</li>
+                        <li>Revival of the Old Spirits</li>
+                        <li>The Great Bridge</li>
+                        <li>The Siege of Kalzath Castle</li>
+                        <li>The Defender of the Raul River</li>
+                        <li>Inside the Flame</li>
+                        <li>The Holy Land Reital</li>
+                            <ul>
+                                <li>Scenario ?1: The Temple of Muscle</li>
+                            </ul>
+                        <li>Battle with the Fire Dragon Corps</li>
+                        <li>The Race for Langrisser</li>
+                        <li>The Battle at Roleck River</li>
+                        <li>The Blue Dragon Knights Again</li>
+                        <li>Emperor Bernhart</li>
+                        <li>The Dark Princess Larna</li>
+                        <li>Battle at Mireil</li>
+                            <ul>
+                                <li>Scenario ?2: Fierce Battle of Dires</li>
+                            </ul>
+                        <li>The Red Sea</li>
+                        <li>Marionette</li>
+                        <li>Alhazard's Revival</li>
+                            <ul>
+                                <li>Scenario ?3: Magic Dragon's Lair</li>
+                            </ul>
+                        <li>The Light Rod</li>
+                        <li>Light and Dark</li>
+                        <li>The Continent's Strongest Knights</li>
+                        <li>The Black Dragon Sorcerer's Trap</li>
+                        <li>The End of a Legend</li>
+                            <ul>
+                                <li>Scenario ?4: Hidden Scenario</li>
+                            </ul>
+                    </ol>
+                </section>
+            </nav>
+        </footer>
+        <aside><!-- Semantic HTML tag -->
+            <p>This is my first website project about one of my favourite games ever, Langrisser II.</p>
+        </aside>
+    </body>
+</html>
