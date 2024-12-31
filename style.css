@@ -46,16 +46,14 @@ img {
 }
 
 .description {
-    /* background-image: url("images/textbox2.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
     border: 5px solid white;
     border-radius: 15px;
-    /* height: 800px;
-    width: 800px; */
     color: white;
     padding: 10px;
     font-size: medium;
+    position: relative;
+    left: 10px;
+    margin-right: 350px;
 }
 
 li {
@@ -66,4 +64,13 @@ li {
     display: inline-block;
     padding: 0 8em;
     border: 2px solid black;
+}
+
+table {
+    border: solid 5px black;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
 }
